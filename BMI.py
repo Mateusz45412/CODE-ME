@@ -1,0 +1,5 @@
+print("Kalkulator BMI")
+waga=float(input("Wpisz swoją wage [kg]"))
+wzrost=float(input("podaj swoj wzrost [m]"))
+BMI=(waga/(wzrost**2))
+print("twoje BMI wynosi", round(BMI,2))
