@@ -1,5 +1,0 @@
-wynik1=int(23+3)
-print(wynik1)
-wynik2=int(15+12)
-print(wynik2)
-print(wynik1==wynik2)
