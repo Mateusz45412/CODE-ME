@@ -3,5 +3,5 @@
 # Następnie powitaj każdą osobę na liście.
 names=input('podaj imiona podzielone spacja')
 names = names.split()
-for name in names:
-    print ("Hello",name, "!")
+for i in names:
+    print ("Hello",i, "!")
