@@ -1,10 +1,16 @@
 #Stwórz krotkę liczb całkowitych. Poproś użytkownika o podanie dowolnej liczby.
 # Jeśli liczba znajduje się na krotce wyswietl jej indeks.
-my_tumple = (1, 2, 3, 4, 5, 6, 14)
-num=int(input("podaj dowolna liczbę"))
+my_tuple = (1, 2, 3, 4, 5, 12, 13, 14)
 
-# for index in range(len(my_tumple)):
-#     if my_tumple[index]==num:
-#        print("Index ->", index)
+num = int(input("Give ma a number -> "))
 
-for index, value in enumerate(my_tumple):
+# for index in range(len(my_tuple)):
+#     if my_tuple[index] == num:
+#         print("Index ->", index)
+
+# for index, value in enumerate(my_tuple):
+#     if value == num:
+#         print("Index ->", index)
+
+print(f"In number { num } in tuple -> { num in my_tuple }")
+print(f"Number { num } is on index { my_tuple.index(num)}")

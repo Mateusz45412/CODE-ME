@@ -3,6 +3,6 @@
 # Wykorzystaj zmienne do wyświetlenia f-stringa, tak by mogło powstać zdanie np.
 # “Mój pies, rasy border collie wabi się Dyzio”.
 
-pet = ('pies', 'border collie', 'dyzio')
+pet = ('pies', 'border collie', 'Dyzio')
 (animal, race, name)=pet
 print(f"Mój {animal} rasy {race} wabi się {name}")
