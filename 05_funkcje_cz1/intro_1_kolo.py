@@ -7,8 +7,11 @@
 
 def calc_circle_area(radious):
     pi = 3.14
-    result = pi * (radious **2)
+    result = pi * (radious ** 2)
     print(result)
+
+
+#---main
 calc_circle_area(10)
 calc_circle_area(5)
 calc_circle_area(2.5)

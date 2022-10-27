@@ -12,4 +12,11 @@ def add_book():
     list_books.append([title, rate]) #zapisuje
 
 
+#main
+list_books =[]
+for i in range(3):
+    print("Książka", i + 1)
+    add_book()
+print(list_books)
+
 
