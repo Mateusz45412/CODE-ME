@@ -1,0 +1,4 @@
+['tent', 'money', 'bag']tent
+money
+bag
+tent	money	bag

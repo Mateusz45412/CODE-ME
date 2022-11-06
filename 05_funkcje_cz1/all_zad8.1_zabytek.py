@@ -11,20 +11,22 @@
 # Gdy program będzie poprawnie działał, pozmieniaj wartości słownika (ale nie klucze!),
 # aby zobaczyć, czy progam również zmienia swoje zachowanie.
 
-def rok(year_car, mark):
+car = {"marka": "Nissan", "model": "Micra", "rocznik": 1995}
+rok2 = int(car['rocznik'])
+marka2 = car['marka']
+model2 = car['model']
+
+
+def rok(year_car, mark, model):
+
     difference = 2022-year_car
     if difference >= 25:
-        print(f"“Gratulacje! Twój samochód {mark} może być zarejestrowany jako zabytek")
+        print(f"“Gratulacje! Twój samochód {mark} {model} może być zarejestrowany jako zabytek")
     else:
-        print(f"Twój samochód {mark}  jest jeszcze zbyt młody")
+        print(f"Twój samochód {mark} {model}  jest jeszcze zbyt młody")
 
 
+rok(rok2, marka2, model2)
 
-def main():
-    marka = input("Podaj marke auta ")
-    model = input("Podaj model auta ")
-    rocznik = int(input("Podaj rok auta "))
-    rok(rocznik, marka)
 
-main()
 
