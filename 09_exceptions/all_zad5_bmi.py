@@ -14,3 +14,4 @@ def open_file(filename):
 namefile = "test.txt"
 content = open_file(namefile)
 print(content)
+# reszta kody w 08_modules
