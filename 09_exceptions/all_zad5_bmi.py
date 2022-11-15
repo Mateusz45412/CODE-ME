@@ -10,8 +10,8 @@ def open_file(filename):
             filename = input('Podaj nazwę pliku -->')
 
 
-
 namefile = "test.txt"
 content = open_file(namefile)
 print(content)
-# reszta kody w 08_modules
+
+# reszta kodu w 08_modules
